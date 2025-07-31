@@ -1,0 +1,37 @@
+# requirements.txt
+
+# Core scientific computing stack
+numpy==1.23.3
+scipy==1.11.0
+pandas==1.5.2
+
+# Machine learning and optimization
+scikit-learn==1.0.2
+scikit-optimize==0.9.0
+torch==1.13.1
+torchvision==0.11.2
+
+# Image processing and computer vision
+opencv-python==4.6.0.66
+pillow==9.3.1
+
+# Data visualization
+matplotlib==3.6.0
+seaborn==0.11.2
+
+# Miscellaneous utilities
+tqdm==4.64.0
+joblib==1.1.0
+
+# IEEE paper dependencies
+ieee-dataport-api==0.3.1
+fraunhofer-iosb-tools==2.0.1
+
+# Testing and development
+pytest==7.1.2
+flake8==4.0.1
+black==21.12b0
+
+# Please ensure that all dependencies are compatible before installing
+# Consider using a virtual environment to manage package versions
+# This file is intended for development purposes and may require adjustments for production deployment
